@@ -1,0 +1,235 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+.home-title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.home-sub-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+.dish-box{
+    width: 380px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding-left: 0px;
+    margin: 20px;
+}
+
+.dish-img{
+    display: inline-block;
+    width: 50%;
+    
+}
+.dish-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 13px 0px 0px 13px;
+    
+}
+
+.dish-type{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 10px;
+}
+
+.dish-type-info{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-top: 5px;
+
+}
+
+.center-content{
+    top: 15%;
+    left: 32%;
+}
+
+.top-logmenue{
+    top: 10px;
+    right: 50px;
+}
+
+
+
+.visible{
+    display: none;
+}
+
+.account{
+    display: inline-block;   
+}
+
+.Login{
+    display: inline-block; 
+}
+.logo{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 250px;
+
+
+}
+.logo-info{
+    color: white;
+    font-size: 40px;
+    margin-left: -50px;
+    
+}
+.rest-location{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    
+}
+.search-rest{
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-left: 30px;
+
+}
+.search-icon{
+    position: absolute;
+    margin:20px 0px 0px 20px;
+}
+.tot-box{
+    margin-left: 30px;
+}
+.background{
+    background-color: #fbfbfb;
+}
+
+@media only screen and (max-width: 990px){
+    .dish-box{
+        margin-left: 45px;
+    }
+    .logo{
+        
+        width: 100px;
+        height: 100px;    
+        font-size: 75px;        
+        margin:0px 0px 10px 200px;
+    } 
+    .center-content{
+        left: 10%;
+        top: 20%;
+    }
+    .logo-info{
+        font-size: 30px;
+        text-align: center;
+    }
+    .rest-location{
+        width: 350px;
+        height: 60px;
+        margin: 5px 0px 5px 10px;
+        
+    }
+    .search-rest{
+        width: 350px;
+        height: 60px; 
+        margin: 5px 0px 5px 1px; 
+    }
+    .top-logmenue{
+        display: none;
+    }
+    .search-icon{
+        margin:25px 0px 0px 10px;
+    }
+    .mob-ver-login{
+        width: 100%;
+        padding-left: 900px; 
+    }
+    .mob-ver-create{
+        width: 100%;
+        padding-left: 800px;     
+    }
+    .newsign{
+        width: 990px;
+        height: 25px;
+        background-color: #fbfbfb;
+    }
+    .new-login{
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        font-size: 30px;
+    
+    }
+    .content-login{
+        position: absolute;
+        top: 45px;
+        right: 10px;
+    }
+    .visible{
+        display: initial;
+    }
+    .newsign{
+        
+        width: 990px;
+        height: 38px;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+    }
+    .new-login{
+        
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        font-size: 30px;
+        color: white;
+    
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1399px){
+    .dish-box{
+        margin-left: 50px;
+    }
+    .mid{
+        margin-left: 300px;
+    }
+    
+    .center-content{
+        left: 10%;
+    }
+}
